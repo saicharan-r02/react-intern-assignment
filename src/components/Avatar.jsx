@@ -1,4 +1,4 @@
-import avatarImg from '../assets/avatar.jpg'   // ← changed
+import avatarImg from '../assets/avatar.png'   // ← changed
 
 export default function Avatar({ name, email }) {
   return (
