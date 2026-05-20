@@ -1,10 +1,10 @@
-export default function Avatar({ name, email }) {
-  const avatarUrl = `https://i.pravatar.cc/150?img=47`
+import avatarImg from '../assets/avatar.jpg'   // ← changed
 
+export default function Avatar({ name, email }) {
   return (
     <div className="profile-row">
       <div className="avatar-wrapper">
-        <img src={avatarUrl} alt="Profile" />
+        <img src={avatarImg} alt="Profile" />   {/* ← changed */}
         <div className="avatar-badge">
           <svg
             viewBox="0 0 24 24"
