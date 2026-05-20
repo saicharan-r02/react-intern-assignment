@@ -8,7 +8,6 @@ export default function AccountSettings() {
   const name  = location.state?.name  || 'Marry Doe'
   const email = location.state?.email || 'Marry@Gmail.Com'
 
-  // If someone lands here directly with no state, send them back
   if (!location.state) {
     navigate('/', { replace: true })
     return null

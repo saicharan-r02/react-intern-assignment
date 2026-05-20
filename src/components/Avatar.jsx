@@ -1,10 +1,10 @@
-import avatarImg from '../assets/avatar.png'   // ← changed
+import avatarImg from '../assets/avatar.png'   
 
 export default function Avatar({ name, email }) {
   return (
     <div className="profile-row">
       <div className="avatar-wrapper">
-        <img src={avatarImg} alt="Profile" />   {/* ← changed */}
+        <img src={avatarImg} alt="Profile" />  
         <div className="avatar-badge">
           <svg
             viewBox="0 0 24 24"
