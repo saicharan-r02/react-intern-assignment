@@ -45,6 +45,7 @@ built as part of the Educase India internship qualifier assignment.
 
 ## 📁 Project Structure
 
+```
 react-intern-assignment/
 ├── public/
 │   └── _redirects              # Netlify routing fix
@@ -70,6 +71,7 @@ react-intern-assignment/
 ├── package.json
 └── vite.config.js
 
+```
 ---
 
 
@@ -107,12 +109,14 @@ npm run build
 
 ## 🔄 Navigation Flow
 
+```
 Welcome Page
 ├── Create Account → Register Page
 │                       └── Create Account → Account Settings
 └── Already Registered? Login → Login Page
 └── Login → Account Settings
 
+```
 ---
 
 ## 📦 Components
