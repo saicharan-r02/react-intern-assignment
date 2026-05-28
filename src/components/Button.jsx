@@ -6,10 +6,10 @@ export default function Button({
 }) {
   return (
     <button
-      className={variant === 'primary' ? 'btn-primary' : 'btn-secondary'}
+      className={variant==='primary' ? 'btn-primary' : 'btn-secondary'}
       onClick={onClick}
-      disabled={disabled}
-    >
+      disabled={disabled}>
+      
       {label}
     </button>
   )
