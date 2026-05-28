@@ -9,7 +9,6 @@ built as part of the Educase India internship qualifier assignment.
 - **GitHub Repo:** https://github.com/saicharan-r02/react-intern-assignment
 - **Design Reference:** https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd
 
----
 
 ## 📱 Pages
 
@@ -32,7 +31,6 @@ built as part of the Educase India internship qualifier assignment.
 - Fully responsive mobile frame layout
 - Clean component-based architecture
 
----
 
 ## 🛠️ Tech Stack
 
