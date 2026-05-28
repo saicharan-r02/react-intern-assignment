@@ -31,14 +31,13 @@ export default function Register() {
     if (!isFormValid) return
     navigate('/account-settings', {
       state: { name: form.fullName, email: form.email },
-    })
-  }
+    })}
 
   return (
     <div className="phone-wrapper">
       <div className="auth-page">
         <h1>Create your{'\n'}PopX account</h1>
-
+        
         <InputField
           label="Full Name*"
           type="text"
@@ -84,9 +83,7 @@ export default function Register() {
           onChange={handleChange}
         />
 
-        <p className="radio-group-label">
-          Are you an Agency?<span>*</span>
-        </p>
+        <p className="radio-group-label"> Are you an Agency?<span>*</span> </p>
         <div className="radio-options">
           <label>
             <input
